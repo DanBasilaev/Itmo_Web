@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.2em;
+    background-image: url("https://akfa-tour.ru/files/photos_russia/Zolotoe-Kolco-Rossii-Karta.JPG");
+    color: #555555;
+}
+
+p{
+    padding: 0 0 20px 0;
+    line-height: 1.6em;
+}
+
+input[type="text"], input[type="password"], input[type="search"]{
+    color: #5d5d5d;
+    width: 60%;
+    padding: 8px;
+}
+
+input, textarea{
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+
+}
+
+h1, h2{
+    font: normal 170% 'century gothic', Arial, sans-serif;
+    margin: 0 0 16px 0;
+    padding: 15px 0 5px 0;
+    color: black;
+}
+
+h2{
+    font-size: 140%;
+}
+
+a, a:hover{
+    outline: none;
+    text-decoration: underline;
+    color: #aeb002;
+
+}
+
+ul{
+    margin: 2px 0 22px 17px;
+}
+
+ul li{
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 0;
+    line-height: 1.5em;
+}
+
+hr{
+    border: solid 1px #f3f3f3;
+}
+
+
+.header {
+    background-color: #ce9c00;
+    height: 170px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 880px;
+    padding-bottom: 30px;
+}
+
+.logo h1, .logo h2{
+    font: normal 300% 'century gothic', Comic Sans MS, Comic Sans, cursive;
+    margin: 0 0 0 -29px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+    padding: 22px 0 0 0;
+    color: white;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h1 a:hover{
+    color: red;
+}
+
+.logo_text h2{
+    font-size: 0.9em;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+
+.menubar{
+    width: 900px;
+    height: 46px;
+}
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li{
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+
+ul.menu li a{
+    font: normal 130% 'century gothic', Comic Sans MS, Comic Sans, cursive;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu li.selected a{
+    color: #b00222;
+}
+
+ul.menu li a:hover{
+    color: #fd4848;
+}
+
+.site_content{
+    width: 1100px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    padding-left: 20px;
+
+}
+
+.sidebar_container{
+    float: right;
+    width: 224px;
+
+}
+
+.sidebar{
+    float: right;
+    width: 360px;
+    padding: 5%;
+    margin: 0 0 20px 0;
+    border: solid 1px #f2f2f2;
+    border-radius: 5px;
+    background-color: rgba(255,190,0,0.43);
+}
+
+
+.btn{
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sidebar h2{
+    color: darkred;
+    font: bolder 150% 'century gothic', Comic Sans MS, Comic Sans, cursive;
+
+}
+
+.lables_passreg_text{
+    font-size: 0.7em;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.sidebar ul{
+    margin: 0;
+}
+.sidebar li{
+    font-size: 70%;
+    margin: 0;
+    list-style: none;
+
+}
+
+.rating_sidebar{
+    float: right;
+}
+
+
+table{
+    width: 100%;
+    border: solid 1px #f4f4f4;
+    background: white;
+}
+td{
+    padding: 3%;
+    border: solid 1px #f4f4f4;
+}
+.first{
+    width: 37px;
+    text-align: center;
+}
+
+
+.content{
+    text-align: left;
+    width: 680px;
+    padding: 0 0 0 5px;
+    float: left;
+
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content h1{
+    font: bold 200% 'trebuchet ms', Impact, fantasy ;
+}
+
+.content p{
+    color: #002166;
+    font-weight: bold;
+}
+
+.gold_start{
+   margin: 10% 2% 0 4%;
+}
+
+.gold_start span{
+    font:bold 130% 'trebuchet ms', Impact, fantasy;
+    color: darkred;
+}
+
+.gold_start p{
+    color: black;
+    font-size: 0.8em;
+}
+
+.initial-letter {
+    float: left;
+    margin: 0.05em 10px 0 0;
+    font-weight: 700;
+    font-size: 3.4em;
+    line-height: 1;
+    font-family: "Noto Serif", "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #ed2324;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.quote_text-inner {
+    position: relative;
+    z-index: 1;
+}
+
+.description p{
+    color: black;
+    font: bold 90% 'trebuchet ms', Impact, fantasy;
+    line-height: 25px;
+}
+
+.img img{
+    width: 100%;
+    mirgin: 2%;
+    border-radius: 5px;
+}
+
+.adres{
+    font:bold 130% 'trebuchet ms', Impact, fantasy;
+}
+
+iframe {
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-top: 5%;
+}
+
+
+
+.info_city{
+    margin: 3% 2% 3% 0 ;
+    background-color:  rgba(255,190,0,0.43);
+    border-radius: 5px;
+    padding: 5%;
+    height: 155px;
+    font: bold 150% 'trebuchet ms', Impact, fantasy;
+    color: black;
+}
+
+.info_city img{
+    float: left;
+    margin-right: 2%;
+    border: solid 5px #dad7d5;
+    border-radius: 5px;
+    width: 45%;
+
+}
+
+.info_sights{
+    margin: 3% 2% 3% 0 ;
+    background-color:  rgba(255,190,0,0.43);
+    border-radius: 5px;
+    padding: 5%;
+    height: 185px;
+    font: bold 120% 'trebuchet ms', Impact, fantasy;
+    color: black;
+}
+
+.info_sights img{
+    float: left;
+    margin-right: 2%;
+    border: solid 5px #dad7d5;
+    border-radius: 5px;
+    width: 45%;
+
+}
+
+.info_city .button{
+    background-color: darkred;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    float: right;
+    font-size: 0.8em;
+    #clear: both;
+    margin-top: 90px;
+}
+.info_sights .button{
+    background-color: darkred;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    float: right;
+    font-size: 0.8em;
+    margin-top: 110px;
+
+}
+
+
+.button a{
+    color: white;
+}
+
+
+.exp p{
+    font: bold 120% 'trebuchet ms', Impact, fantasy;
+    color: black;
+}
+.send{
+    margin-bottom: 4%;
+}
+.send input[type="text"], textarea{
+    border: solid 1px #c3c3c3;
+    margin-bottom: 2%;
+
+}
+.send input[type="text"]{
+    width: 98%;
+}
+.send textarea{
+    width: 100%;
+    height: 200px;
+
+}
+.send input[type="submit"]{
+    background-color: darkred;
+    padding: 3%;
+    color: white;
+    border-radius: 25px;
+    font: bolder 120% 'century gothic', Comic Sans MS, Comic Sans, cursive;
+    cursor: pointer;
+}
+
+.reviews{
+    font: bolder 100% 'century gothic', Comic Sans MS, Comic Sans, cursive;
+    margin-bottom: 5%;
+}
+.reviews .reviews_name{
+    background-color: darkred;
+    color: white;
+    padding: 1%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.reviews .reviews_text{
+    padding: 2% 0 2% 2%;
+    background-color: rgba(251,255,246,0.83);
+    margin-top: 1%;
+    margin-right: 5%;
+    color: black;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+.well{
+    height: 10px;
+    padding: 3px;
+    margin-bottom: 2%;
+}
+
+.well_h2{
+    font: bold 140% 'trebuchet ms', Impact, fantasy;
+
+}
+
+.well_h3{
+    font: bolder 110% 'century gothic', Comic Sans MS, Comic Sans, cursive;
+    color: black;
+}
+
+.well a{
+    color: black;
+    text-decoration: none;
+    font: normal 100% 'trebuchet ms', Impact, fantasy;
+}
+
+.well a:hover{
+    color: darkred;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: #ce9c00;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 900px;
+}
+
+.footer a{
+    color:white;
+    text-decoration: none;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.footer a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
